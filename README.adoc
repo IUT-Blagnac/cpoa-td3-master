@@ -1,7 +1,7 @@
 = CPOA - TD
 J.-M. Bruel <jbruel@gmail.com>
 v20.1 {localdate}
-:tdnum: TDX
+:tdnum: TD3
 :uk!:
 :imagesdir: images
 //------------------------- variables de configuration
@@ -11,7 +11,7 @@ v20.1 {localdate}
 :numbered!:
 :status:
 :source-highlighter: rouge
-:baseURL: http://bit.ly/innopolis-patterns
+:baseURL: http://bit.ly/jmb-cpoa
 :github: https://github.com[GitHub]
 // Specific to GitHub
 ifdef::env-github[]
@@ -81,7 +81,7 @@ TIP: Rappel du cours : pass:[<i class="fa fa-mobile"></i> <i class="fa fa-tablet
 endif::[]
 
 ifdef::backend-pdf[]
-TIP: Rappel du cours : icon::mobile[] icon::tablet[] icon::[]laptop {baseURL}
+TIP: Rappel du cours : icon:mobile[] icon:tablet[] icon:laptop[] {baseURL}
 endif::[]
 
 endif::[]
@@ -418,6 +418,31 @@ ifndef::compact[]
 
 .Several examples of Factory pattern definitions
 image::google-fabrique.png[link="images/google-fabrique.png",width=100%,scaledwidth=100%]
+
+//------------------------------------ 
+== Ressources
+//------------------------------------ 
+
+Mise en place de l'environnement Eclipse:
+
+- Créez un nouveau répertoire (disons `{tdnum}`)
+- Dans ce dossier ouvrez un git bash
+- git clone http://urlduprojet
+- Ouvrez eclipse, changez de workspace, sélectionnez le dossier `{tdnum}`
+- Une fois le workspace ouvert, cliquez sur menu:File[Import > General > Projects from Folder or Achive] puis `Next`
+- menu:Select root directory[Browse], sélectionnez ce repo (`urlduprojet` dans cet example)
+- Cliquez sur menu:Finish[]
+
+Installation de Maven sous Windows:
+
+- Télécharger: https://apache.mediamirrors.org/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.zip
+- Décompresser le contenu dans `C:\Programmes\Java`
+- Dans Menu Démarrer, taper `Environnement` puis cliquer sur menu:Modifier les variables d'environnement système[]
+- Cliquer sur `Variables d'environnement`
+- Dans la section `Variables système`, sélectionner `Path`, cliquer sur `Modifier`
+- Cliquez sur `Nouveau`, puis saisissez `C:\Program Files\Java\apache-maven-3.6.3\bin` (vérifiez que le dossier existe)
+- Cliquez successivement 3 fois sur "OK".
+- La commande MVM devrait être disponible dans un cmd windows (fermer les existants)
 
 //------------------------------------ 
 == {translation}
