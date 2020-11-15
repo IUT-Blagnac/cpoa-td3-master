@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="199px" preserveAspectRatio="none" style="width:528px;height:199px;" version="1.1" viewBox="0 0 528 199" width="528px" zoomAndPan="magnify"><defs><filter height="300%" id="f2jvh1b5j8xap" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[e3471f280e59d1431a9a122c0f31e779]
+class c--><rect codeLine="10" fill="#F0F8FF" filter="url(#f2jvh1b5j8xap)" height="65.9102" id="c" rx="5" ry="5" style="stroke: #2F4F4F; stroke-width: 1.5;" width="108" x="157.5" y="7"/><ellipse cx="185.55" cy="23" fill="#A9DCDF" rx="11" ry="11" style="stroke: #2F4F4F; stroke-width: 1.0;"/><path d="M185.4133,18.3481 L184.2595,23.4199 L186.5754,23.4199 Z M183.9191,16.1069 L186.9157,16.1069 L190.2609,28.5 L187.8122,28.5 L187.0485,25.437 L183.7697,25.437 L183.0227,28.5 L180.5739,28.5 Z "/><text fill="#000000" font-family="TrebuchetMS" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="47" x="202.45" y="27.3008">Createur</text><line style="stroke: #2F4F4F; stroke-width: 1.5;" x1="158.5" x2="264.5" y1="39" y2="39"/><ellipse cx="168.5" cy="50" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="53" x="177.5" y="53.6348">fabrique()</text><ellipse cx="168.5" cy="62.9551" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="82" x="177.5" y="66.5898">uneOperation()</text><path d="M301,32.5 L301,36 L265.63,40 L301,44 L301,47.8105 A5,5 0 0 0 306,52.8105 L445,52.8105 A5,5 0 0 0 450,47.8105 L450,37.5 L440,27.5 L306,27.5 A5,5 0 0 0 301,32.5 " fill="#FBFB77" filter="url(#f2jvh1b5j8xap)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M440,27.5 L440,35 A2.5,2.5 0 0 0 442.5,37.5 L450,37.5 L440,27.5 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="128" x="307" y="45.0684">produit = fabrique();</text><!--MD5=[217537f29afe639f347895754667a4fd]
+class p--><rect codeLine="14" fill="#F0F8FF" filter="url(#f2jvh1b5j8xap)" height="32" id="p" rx="5" ry="5" style="stroke: #2F4F4F; stroke-width: 1.5;" width="73" x="42" y="24"/><ellipse cx="57" cy="40" fill="#A9DCDF" rx="11" ry="11" style="stroke: #2F4F4F; stroke-width: 1.0;"/><path d="M56.8633,35.3481 L55.7095,40.4199 L58.0254,40.4199 Z M55.3691,33.1069 L58.3657,33.1069 L61.7109,45.5 L59.2622,45.5 L58.4985,42.437 L55.2197,42.437 L54.4727,45.5 L52.0239,45.5 Z "/><text fill="#000000" font-family="TrebuchetMS" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41" x="71" y="44.3008">Produit</text><!--MD5=[83012fed607bd02a287dd593cac4b98d]
+class CreateurConcret--><rect codeLine="19" fill="#F0F8FF" filter="url(#f2jvh1b5j8xap)" height="52.9551" id="CreateurConcret" rx="5" ry="5" style="stroke: #2F4F4F; stroke-width: 1.5;" width="124" x="157.5" y="133"/><ellipse cx="172.5" cy="149" fill="#ADD1B2" rx="11" ry="11" style="stroke: #2F4F4F; stroke-width: 1.0;"/><path d="M174.9731,155.1431 Q174.3921,155.4419 173.7529,155.5913 Q173.1138,155.7407 172.4082,155.7407 Q169.9014,155.7407 168.5815,154.0889 Q167.2617,152.437 167.2617,149.3159 Q167.2617,146.1865 168.5815,144.5347 Q169.9014,142.8828 172.4082,142.8828 Q173.1138,142.8828 173.7612,143.0322 Q174.4087,143.1816 174.9731,143.4805 L174.9731,146.2031 Q174.3423,145.6221 173.7488,145.3523 Q173.1553,145.0825 172.5244,145.0825 Q171.1797,145.0825 170.4949,146.1492 Q169.8101,147.2158 169.8101,149.3159 Q169.8101,151.4077 170.4949,152.4744 Q171.1797,153.541 172.5244,153.541 Q173.1553,153.541 173.7488,153.2712 Q174.3423,153.0015 174.9731,152.4204 Z "/><text fill="#000000" font-family="TrebuchetMS" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="92" x="186.5" y="153.3008">CreateurConcret</text><line style="stroke: #2F4F4F; stroke-width: 1.5;" x1="158.5" x2="280.5" y1="165" y2="165"/><ellipse cx="168.5" cy="176" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="53" x="177.5" y="179.6348">fabrique()</text><path d="M316.5,152 L316.5,155.5 L281.52,159.5 L316.5,163.5 L316.5,167.3105 A5,5 0 0 0 321.5,172.3105 L509.5,172.3105 A5,5 0 0 0 514.5,167.3105 L514.5,157 L504.5,147 L321.5,147 A5,5 0 0 0 316.5,152 " fill="#FBFB77" filter="url(#f2jvh1b5j8xap)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M504.5,147 L504.5,154.5 A2.5,2.5 0 0 0 507,157 L514.5,157 L504.5,147 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="177" x="322.5" y="164.5684">return new ProduitConcret();</text><!--MD5=[4db92337b7bc113041163d1b101d0c79]
+class ProduitConcret--><rect fill="#F0F8FF" filter="url(#f2jvh1b5j8xap)" height="32" id="ProduitConcret" rx="5" ry="5" style="stroke: #2F4F4F; stroke-width: 1.5;" width="115" x="7" y="143.5"/><ellipse cx="22" cy="159.5" fill="#ADD1B2" rx="11" ry="11" style="stroke: #2F4F4F; stroke-width: 1.0;"/><path d="M24.4731,165.6431 Q23.8921,165.9419 23.2529,166.0913 Q22.6138,166.2407 21.9082,166.2407 Q19.4014,166.2407 18.0815,164.5889 Q16.7617,162.937 16.7617,159.8159 Q16.7617,156.6865 18.0815,155.0347 Q19.4014,153.3828 21.9082,153.3828 Q22.6138,153.3828 23.2612,153.5322 Q23.9087,153.6816 24.4731,153.9805 L24.4731,156.7031 Q23.8423,156.1221 23.2488,155.8523 Q22.6553,155.5825 22.0244,155.5825 Q20.6797,155.5825 19.9949,156.6492 Q19.3101,157.7158 19.3101,159.8159 Q19.3101,161.9077 19.9949,162.9744 Q20.6797,164.041 22.0244,164.041 Q22.6553,164.041 23.2488,163.7712 Q23.8423,163.5015 24.4731,162.9204 Z "/><text fill="#000000" font-family="TrebuchetMS" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="83" x="36" y="163.8008">ProduitConcret</text><!--MD5=[69a03d4fe77600808f833a90e390d8ff]
+reverse link p to ProduitConcret--><path codeLine="24" d="M74.3,76.25 C71.64,98.55 68.34,126.24 66.33,143.14 " fill="none" id="p-backto-ProduitConcret" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="none" points="67.35,75.39,76.67,56.36,81.25,77.05,67.35,75.39" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[1755dbb3ae1593d86280b45b7f35a120]
+reverse link c to CreateurConcret--><path codeLine="25" d="M215.05,93.17 C215.99,106.89 216.95,121.1 217.75,132.75 " fill="none" id="c-backto-CreateurConcret" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="none" points="208.06,93.54,213.69,73.11,222.03,92.59,208.06,93.54" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[54cbc9d34fde44f65f73a9af180516bb]
+reverse link p to c--><path codeLine="27" d="M120.4,40 C132.69,40 144.99,40 157.29,40 " fill="none" id="p-backto-c" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="115.13,40,124.13,44,120.13,40,124.13,36,115.13,40" style="stroke: #000000; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="56" x="122.7875" y="28.5924">+produit</text><!--MD5=[640bbd8d7db744dbf04e518ed91f7bf4]
+reverse link ProduitConcret to CreateurConcret--><path codeLine="28" d="M127.28,159.5 C137.33,159.5 147.38,159.5 157.43,159.5 " fill="none" id="ProduitConcret-backto-CreateurConcret" style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="122.02,159.5,131.02,163.5,127.02,159.5,131.02,155.5,122.02,159.5" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[aaefecf1fd4f0b088bfe1326fcb9415d]
+@startuml
+
+'- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+' UML concepts illustrated
+' JMB 2014
+'- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+!include config.cfg
+
+
+abstract class c as "Createur" {
+}
+note right: produit = fabrique();
+
+abstract class p as "Produit"
+
+c : {abstract} +fabrique()
+c : +uneOperation()
+
+class CreateurConcret {
+	+fabrique()
+}
+note right: return new ProduitConcret();
+
+p <|- - ProduitConcret
+c <|- - CreateurConcret
+
+p "+produit" <- c
+ProduitConcret <. CreateurConcret
+
+@enduml
+
+@startuml
+
+
+
+hide empty members
+hide empty methods
+
+
+skinparam package {
+	BackgroundColor empty
+	BorderColor DarkSlateGray
+	ArrowColor Black
+	FontColor Black
+	FontSize 12
+	FontName TrebuchetMS
+}
+skinparam roundcorner 10
+
+skinparam class {
+	BackgroundColor AliceBlue
+	BorderColor DarkSlateGray
+	ArrowColor Black
+	FontColor Black
+	FontSize 12
+	FontName TrebuchetMS
+}
+skinparam arrow {
+    MessageAlign center
+}
+
+
+abstract class c as "Createur" {
+}
+note right: produit = fabrique();
+
+abstract class p as "Produit"
+
+c : {abstract} +fabrique()
+c : +uneOperation()
+
+class CreateurConcret {
+	+fabrique()
+}
+note right: return new ProduitConcret();
+
+p <|- - ProduitConcret
+c <|- - CreateurConcret
+
+p "+produit" <- c
+ProduitConcret <. CreateurConcret
+
+@enduml
+
+PlantUML version 1.2020.18(Wed Sep 30 21:40:44 CEST 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: fr
+Country: FR
+--></g></svg>
