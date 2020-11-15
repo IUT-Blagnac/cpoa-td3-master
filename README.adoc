@@ -382,8 +382,6 @@ Quelle est la déclaration exacte de la méthode `creerPizza()`
 de la classe `Pizzeria` ?
 ====
 
-=== So, how does it work ?
-
 === Récapitulons
 
 //----------------------------- Question ------------------
