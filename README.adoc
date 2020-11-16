@@ -222,7 +222,7 @@ la caisse (de Chianti). Vous n'avez à votre disposition que :
 +
 .`Pizzeria.java` code initial (source disponible dans `src`)
 [source,java]
-------
+------	
 include::src/main/java/Pizzeria.java[]
 ------
 +
@@ -275,8 +275,17 @@ fix #1.1 Simple Pizza Factory
 
 == On y est presque...
 
-Nous sommes arrivés à une situation propre, qui s'apparente
-à un patron de conception. Mais avant d'en arriver à la définition
+Nous sommes arrivés à une situation propre, qui s'apparente à un patron de conception.
+
+Souvent appelé _Simple Factory_, ou _Factory Method_, il n'est pas complètement considéré comme un patron :
+
+[NOTE]
+.(almost) Design pattern : *Simple Fabrique*
+====
+include::pattern/fabrique.txt[]
+====
+
+Mais avant d'en arriver à la définition
 du patron lui-même, nous allons améliorer un peu les choses.
 
 === Succès des pizzerias O'Reilly : les franchises
@@ -409,7 +418,7 @@ Nous y sommes, vous venez de décortiquer le patron Fabrique Simple
 [NOTE]
 .Design pattern : *Fabrique (simple)*
 ====
-include::pattern/fabrique.txt[]
+include::pattern/fabrique-abstraite.txt[]
 ====
 
 ifndef::compact[]
