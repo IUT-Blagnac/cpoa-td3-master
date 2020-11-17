@@ -275,19 +275,6 @@ fix #1.1 Simple Pizza Factory
 
 == On y est presque...
 
-Nous sommes arrivés à une situation propre, qui s'apparente à un patron de conception.
-
-Souvent appelé _Simple Factory_, ou _Factory Method_, il n'est pas complètement considéré comme un patron :
-
-[NOTE]
-.(almost) Design pattern : *Simple Fabrique*
-====
-include::pattern/fabrique.txt[]
-====
-
-Mais avant d'en arriver à la définition
-du patron lui-même, nous allons améliorer un peu les choses.
-
 === Succès des pizzerias O'Reilly : les franchises
 
 Plusieurs villes veulent ouvrir des pizzerias comme la vôtre.
@@ -312,6 +299,19 @@ ifdef::backend-pdf[.icon:github[] commit/push]
 ....
 fix #2.1 Use of abstract factories
 ....
+
+Nous sommes arrivés à une situation propre, qui s'apparente à un patron de conception.
+
+Souvent appelé _Simple Factory_, ou _Factory Method_, il n'est pas complètement considéré comme un patron :
+
+[NOTE]
+.(almost) Design pattern : *Simple Fabrique*
+====
+include::pattern/fabrique.txt[]
+====
+
+Mais avant d'en arriver à la définition
+du patron lui-même, nous allons améliorer un peu les choses.
 
 === La dérive : chacun travaille comme il l'entend!
 
@@ -410,13 +410,13 @@ ifdef::backend-pdf[.icon:github[] commit/push]
 fix #2.5 Simple Pizza Factory
 ....
 
-== Le patron Fabrique (simple)
+== Le patron Fabrique
 
 Nous y sommes, vous venez de décortiquer le patron Fabrique Simple
 
 [[Fabrique]]
 [NOTE]
-.Design pattern : *Fabrique (simple)*
+.Design pattern : *Fabrique*
 ====
 include::pattern/fabrique-abstraite.txt[]
 ====
